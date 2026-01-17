@@ -10,7 +10,7 @@ export default function Home() {
   const createRoot = () => {
     let link;
     if(text.startsWith(`${process.env.NEXT_PUBLIC_HOST}`)){
-      link = text.split("/")[4]
+      link = text.split("/")[3]
     }
     else{
       link = text
