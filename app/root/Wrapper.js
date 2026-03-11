@@ -61,19 +61,21 @@ const Wrapper = () => {
       redirect: "follow"
     };
 
-    const r = await fetch("http://localhost:3000/api/generate", requestOptions)
-    const result = await r.json()
-    if(result.success){
-      toast.success(result.message)
-      setlinks([0])
-      sethandle("")
-      setpic("")
-      setdesc("")
-      router.push(`/${handle}`)
-
-    }
-    else{
-      toast.error(result.message)
+    try {
+      const r = await fetch("/api/generate", requestOptions)
+      const result = await r.json()
+      if (result.success) {
+        toast.success(result.message)
+        setlinks([{ link: "", linktext: "" }])
+        sethandle("")
+        setpic("")
+        setdesc("")
+        router.push(`/${handle}`)
+      } else {
+        toast.error(result.message)
+      }
+    } catch (e) {
+      toast.error("Failed to create ROOT. Please try again.")
     }
   }
 
