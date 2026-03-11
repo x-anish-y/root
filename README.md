@@ -1,139 +1,36 @@
-# 🌳 ROOT – Linktree Inspired Personal Link Hub
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-ROOT is a simple and elegant **Linktree-inspired personal link hub** that allows users to showcase multiple links on a single page.
+## Getting Started
 
-It acts as a centralized landing page where creators, developers, or individuals can share their social profiles, portfolios, or important resources through one clean interface.
-
-Unlike traditional platforms, ROOT keeps things minimal by **removing login and account systems**, making it lightweight and easy for personal use.
-
----
-
-## 📌 Project Overview
-
-ROOT provides a simple solution to a common problem:
-
-> Sharing multiple links across different platforms.
-
-Instead of sending multiple URLs, users can share **one single page that contains all their important links**.
-
-The platform focuses on:
-
-- Simplicity
-- Fast loading
-- Clean UI
-- Easy customization
-
----
-
-## 🚀 Core Features
-
-- 🔗 Multiple links on a single page  
-- 🎨 Clean and modern UI  
-- 📱 Fully responsive design  
-- ⚡ Fast and lightweight frontend  
-- 🌐 Easy deployment and hosting  
-- 🧩 Simple customization of links and layout  
-
----
-
-## 🛠 Tech Stack
-
-| Layer | Technology |
-|------|-------------|
-| Frontend | Next.js / React |
-| Styling | CSS / Tailwind CSS |
-| Deployment | Vercel / Netlify |
-
----
-
-## ⚙️ How It Works
-
-1. The page displays a collection of personal links.
-2. Each button redirects to an external platform (GitHub, LinkedIn, Portfolio, etc.).
-3. Users can easily update or customize links inside the project.
-
-The goal is to provide a **single hub for all important links**.
-
----
-
-## 📂 Project Structure
-
-```
-root/
-│
-├── app/                # Main application pages
-├── components/         # UI components
-├── public/             # Images and assets
-├── styles/             # Styling files
-└── package.json
-```
-
----
-
-## 🔧 Installation & Setup
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/x-anish-y/root.git
-cd root
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Run Development Server
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Open in your browser:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-http://localhost:3000
-```
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🌍 Deployment
+## Learn More
 
-The project can be deployed easily on:
+To learn more about Next.js, take a look at the following resources:
 
-- **Vercel**
-- Netlify
-- GitHub Pages
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 📈 Future Improvements
+## Deploy on Vercel
 
-- Custom themes
-- Drag-and-drop link ordering
-- Analytics for link clicks
-- QR code sharing
-- Custom domain support
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-## 🎯 Use Cases
-
-- Personal portfolio link hub
-- Creator / influencer social page
-- Developer profile landing page
-- Event or campaign link page
-
----
-
-## 👨‍💻 Author
-
-Developed by **Anish Sasmal** as a lightweight web development project.
-
----
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
